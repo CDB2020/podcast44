@@ -1,0 +1,40 @@
+.cellyparrafos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dedondevenimos {
+    margin-top: -59px;
+    margin-bottom: 0px;
+    width: 288px;
+    height: 84px;
+}
+
+.ourposturings, .ourplanet {
+    box-shadow: 0 0px 20px -2px rgb(180, 173, 173);
+    border-radius: 7px 
+}
+
+@media (min-width: 768px) {
+    .cellyparrafos {
+        display: flex;
+        justify-content: center;
+    }    
+
+    .celular {
+        display: flex;
+    }
+
+    .posturings {
+        align-self: flex-end;
+    }
+
+    .cel {
+        display: flex;
+        margin-left: 200px;
+        margin-right: 62px;
+    }
+
+        
+}

@@ -1,0 +1,12 @@
+.phone {
+    position: relative;
+    /* width: 340px; */
+    height: 519px;
+    /* margin-left: -10px; */
+    z-index: 3;
+    top: -96px;
+}
+
+/*.cel{
+    /*height: 400px;
+}*/

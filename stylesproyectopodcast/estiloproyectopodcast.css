@@ -1,0 +1,72 @@
+@import './header.css';
+@import './helloworld.css';
+@import './footer.css';
+@import './conocemas.css';
+@import './episodios.css';
+@import './phone.css';
+@import './blancoynegro.css';
+@import './novedades.css';
+@import './cellyparrafos.css';
+@import './iconos.css';
+
+body {
+    margin:0;               
+    
+}
+br {
+    width: 0px;
+    height: 0px;
+}
+
+@media (min-width:768px){
+
+    .header {
+        height: 80px;
+    }
+
+    .header li{
+        float:left;
+    }
+
+    .header li a{
+        padding:0px 30px 20px;
+    }
+    .header .menu{
+        clear:none;
+        float:right;
+        max-height:none;
+    }
+    .header .menu-icon {
+        display:none;
+    }
+
+    .header ul{
+        margin:0;
+        padding:0;
+        list-style:none;
+        overflow:hidden;
+        
+    }
+
+    a {
+        font-family: 'IBM Plex Mono', monospace;
+        color: rgba(6,10,36,1);
+        margin-top: 26px;
+        margin-right: auto;
+    }
+
+    
+.header ul a:hover{
+    font-size: 16px;
+    text-decoration: line-through;
+    color: rgba(0,243,187,1);
+ }
+
+    .logo {
+        width: 36px;
+        height: 36px;
+        margin-top: 22px;
+        margin-bottom: 22px;
+        margin-left: 100px;
+    }
+}    

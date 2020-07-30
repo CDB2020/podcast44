@@ -1,0 +1,144 @@
+.hello {
+    /*margin-top: 40px;*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+}
+
+.world, .dedondevenimos, .invitadas, .temas {
+    margin-left: 16px;
+    margin-top: 0px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color:rgba(6,10,36,1);
+    font-size: 36px;
+}
+
+.world {
+    padding-top: 73px;
+    margin-bottom: 0px;
+}
+
+.temas {
+    margin-top: 48px;
+    margin-bottom: 37px;
+    margin-left: 16px;
+}
+
+.invitadas {
+    margin-top: 254px;
+    margin-bottom: 14px;
+}
+.dedondevenimos{
+    margin-top: 27px;
+    margin-bottom: 0px;
+    width: 288px;
+    height: 84px;
+}
+
+.tachado {/*parte de h1 tachada*/
+    font-family: 'IBM Plex Sans', sans-serif; 
+    color:rgba(6,10,36,1);
+    font-size: 36px;
+    text-decoration: line-through;
+}
+
+.unpodcast, .elportal, .posturings {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    margin-top: 16px;
+    margin-left: 16px;
+    
+    padding-top: 16px;
+    width: 288px;
+    height: 66px;
+    color:rgba(6,10,36,1);
+}
+
+.unpodcast {
+    /*margin-bottom: 36px;*/
+    box-shadow: 0 0px 20px -2px rgb(180, 173, 173);
+    border-radius: 7px
+}
+
+.elportal {
+    display: none;
+    box-shadow: 0 0px 20px -2px rgb(180, 173, 173);
+    border-radius: 7px
+}
+
+.posturings{
+    margin-top: 0px;
+    
+}
+
+article {
+    height: 346px;
+}
+
+
+ @media (min-width: 768px){
+
+         .world, .tachado {
+         margin-top: 120px;
+         font-size: 64px;
+         margin-bottom: 0px;
+         padding-bottom: 0px;
+     }
+
+     .hello {
+        margin-top: 120px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        padding-left: 200px;
+    }
+     
+     .bluedot {
+         font-family: 'IBM Plex Sans', sans-serif;
+         font-size: 64px;
+         color: rgba(0,0,236,1);
+     }
+
+     .unpodcast {
+         display: none;
+     }
+
+     .elportal {
+        display: inline-block;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 16px;
+        margin-left: 16px;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-bottom: 56px;
+        width: 628px;
+        height: 48px;
+        color:rgba(6,10,36,1);
+    }
+
+    .posturings {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 14px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .dedondevenimos {
+        width: 399px;
+        height: 62px;
+        font-size: 48px;
+        margin-bottom: 0px;
+    }
+
+    .invitadas, .temas {
+        font-family: 'IBM Plex Sans', sans-serif; 
+        color:rgba(6,10,36,1);
+        font-size: 48px;
+        margin-top: 64px;
+        margin-bottom: 36px;
+        margin-left: 200px;
+    }    
+}

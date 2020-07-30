@@ -1,0 +1,28 @@
+.suscribe {  
+    font-family:'IBM Plex Mono', monospace; 
+    color:rgba(6,10,36,1);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;  
+    line-height: 22px;  
+    padding: 13px 96px;    
+    text-transform: uppercase;  
+    text-align: center;  
+    background-color: rgba(0,243,187,1);
+    margin-left: 16px;
+    margin-top: 36px;
+  }  
+
+@media (min-width: 768px){
+   
+    .suscribe {
+        margin-left: 200px;
+        margin-top: 56px;
+    }
+
+    .suscribe:hover {
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        color:#FFFFFFFF;
+    }
+
+}

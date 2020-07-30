@@ -1,0 +1,84 @@
+.i-frame-episodios{
+    /*height: 1270px;*/
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient( rgba(0,0,255,1), rgba(0,0,163,1)); 
+    clip-path: polygon(0 30px, 100% 0%, 100% 97.5%, 0% 100%);
+    margin-top: 24px;
+}
+
+.tituloepisodios {
+    margin-left: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    color: rgba(255,255,255,1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 64px;
+    padding-bottom: 21px;
+}
+
+.spotify {
+    height: fit-content;
+
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+
+.iframe1, .iframe2, .iframe3, .iframe4 {
+    width: 298px;
+    height: 232px;
+    margin-left: 11px;
+    margin-top: 11px;
+    border: none;
+}
+
+.iframe4 {
+    margin-bottom: 145px;
+}
+
+@media (min-width: 375px) {
+    .spotify {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+        .iframe1, .iframe2, .iframe3, .iframe4 {
+            margin-left: 0px;
+        }
+
+    }
+
+@media (min-width:768px){
+    
+    .iframe1, .iframe2, .iframe3, .iframe4 {
+        width: 584px;
+        height: 232px;
+        
+    }
+
+    /*.i-frame-episodios{
+        height: auto;
+    }*/
+    
+.tituloepisodios {
+    margin-left: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 48px;
+    color: rgba(255,255,255,1);
+    margin-top: 0px;
+    margin-left: 200px;
+    margin-bottom: 26px;
+    padding-top: 64px;
+}
+
+}
+
+@media (min-width: 1440px) {
+    .spotify {
+        justify-content: space-around;
+    }
+}

@@ -1,0 +1,56 @@
+.novedades {    
+    height: 341px;
+    background-image: linear-gradient( rgba(0,0,255,1), rgba(0,0,163,1)); 
+    clip-path: polygon(0 30px, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.h2novedades {
+    margin-left: 16px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    color: rgba(255,255,255,1);
+    margin-top: 0px;
+    margin-bottom: 36px;
+    padding-top: 64px;
+    text-align: center;
+}
+
+.escucha {  
+    font-family:'IBM Plex Mono', monospace; 
+    color:rgba(6,10,36,1);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;  
+    line-height: 22px;  
+    padding: 13px 43px;    
+    text-transform: uppercase;  
+    text-align: center;  
+    background-color: rgba(0,243,187,1);
+    margin-left: 16px;
+    margin-top: 36px;
+  }  
+
+@media (min-width: 768px) {
+    .escucha {
+        width: 345px;
+        height: 56px;
+        margin-left: 547px;
+        margin-top: 36px;
+    }
+
+    .escucha:hover {
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        color:#FFFFFFFF ;
+    }
+
+    .escucha :hover {
+        background: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    }
+
+    .h2novedades {
+        font-size: 48px;
+        margin-top: 213px;
+        margin-bottom: 36px;
+        text-align: center;
+    }
+}

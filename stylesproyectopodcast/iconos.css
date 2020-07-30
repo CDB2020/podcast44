@@ -1,0 +1,28 @@
+h3 {
+    font-family: 'IBM Plex Sans', sans-serif ;
+    color:rgba(6,10,36,1) ;
+    font-size: 24px;
+    width: 288px;
+    height: 32px;
+    margin-left: 16px;
+    margin-top: 13px;
+    text-align: center;
+}
+
+.icon1, .icon2, .icon3, .icon4 {
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 108px;
+    margin-right: 108px;
+} 
+
+@media (min-width:768px) {
+    .iconos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+}

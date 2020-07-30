@@ -1,0 +1,35 @@
+.invitadas {
+    margin-top: 242px;
+}
+
+.blanconegro1, .blanconegro2,.blanconegro3, .blanconegro4, .blanconegro5, .blanconegro6 {
+    width: 320px;
+    height: 243px;
+}
+
+@media (min-width: 768px) {
+    .blancoynegro {
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+    }
+
+    .blancoynegro2 {
+        height: 50%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        align-content: center;
+    }
+
+    .blanconegro1, .blanconegro2,.blanconegro3, .blanconegro4, .blanconegro5, .blanconegro6 {
+        width: 33%;
+        height: 364px;
+    }    
+
+
+}
