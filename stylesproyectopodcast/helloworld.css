@@ -1,10 +1,10 @@
 .hello {
-    /*margin-top: 40px;*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-around;
-    justify-content: flex-start;
+    justify-content: center;
+    text-align: -webkit-auto;
 }
 
 .world, .dedondevenimos, .invitadas, .temas {
@@ -13,6 +13,10 @@
     font-family: 'IBM Plex Sans', sans-serif;
     color:rgba(6,10,36,1);
     font-size: 36px;
+}
+
+.invitadas {
+    margin-bottom: 14px;
 }
 
 .world {
@@ -26,10 +30,6 @@
     margin-left: 16px;
 }
 
-.invitadas {
-    margin-top: 254px;
-    margin-bottom: 14px;
-}
 .dedondevenimos{
     margin-top: 27px;
     margin-bottom: 0px;
@@ -51,7 +51,6 @@
     line-height: 22px;
     margin-top: 16px;
     margin-left: 16px;
-    
     padding-top: 16px;
     width: 288px;
     height: 66px;
@@ -59,9 +58,10 @@
 }
 
 .unpodcast {
-    /*margin-bottom: 36px;*/
     box-shadow: 0 0px 20px -2px rgb(180, 173, 173);
-    border-radius: 7px
+    border-radius: 7px;
+    margin-left: 0px;
+    
 }
 
 .elportal {
@@ -75,25 +75,18 @@
     
 }
 
-article {
-    height: 346px;
-}
-
-
  @media (min-width: 768px){
 
-         .world, .tachado {
-         margin-top: 120px;
-         font-size: 64px;
+    .world, .tachado {
+        margin-top: 120px;
+        font-size: 64px;
          margin-bottom: 0px;
          padding-bottom: 0px;
      }
 
      .hello {
-        margin-top: 120px;
-        margin-bottom: 0px;
-        padding-bottom: 0px;
-        padding-left: 200px;
+        margin: 0px;
+        padding: 0px;
     }
      
      .bluedot {
@@ -142,3 +135,21 @@ article {
         margin-left: 200px;
     }    
 }
+
+@media (min-width: 1024px){
+    .hello {   
+        display: flex;
+    /* margin-left: 200px; */
+    /* align-content: flex-start; */
+    flex-direction: column;
+    align-content: flex-start;
+}
+    
+    .elportal {
+        margin-bottom: 0px;
+    }
+
+    .elportal, .suscribe, .world {
+        margin-left: 220px;
+    }
+}    

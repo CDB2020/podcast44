@@ -76,7 +76,6 @@ a {/*estilo etiquetas <a> del menu hamburguesa*/
     position:absolute;
     transition:all .2s ease-out;
     top:5px;  
-
 }
 
 .header .menu-icon .nav-icon:after{
@@ -88,7 +87,6 @@ a {/*estilo etiquetas <a> del menu hamburguesa*/
     position:absolute;
     transition:all .2s ease-out;
     top:-5px;  
-
 }
 
 .header .menu-btn{
@@ -105,10 +103,12 @@ a {/*estilo etiquetas <a> del menu hamburguesa*/
 .header .menu-btn:checked ~ .menu-icon .nav-icon{
     background:transparent;
 }
+
 .header .menu-btn:checked ~ .menu-icon .nav-icon:before{
     transform: rotate(-45deg);
     top:0;
 }
+
 .header .menu-btn:checked ~ .menu-icon .nav-icon:after{
     transform: rotate(45deg);
     top:0;
@@ -133,6 +133,7 @@ a {/*estilo etiquetas <a> del menu hamburguesa*/
         float:right;
         max-height:none;
     }
+
     .header .menu-icon {
         display:none;
     }
@@ -142,7 +143,6 @@ a {/*estilo etiquetas <a> del menu hamburguesa*/
         padding:0;
         list-style:none;
         overflow:hidden;
-        
     }
 
     a {
@@ -153,17 +153,17 @@ a {/*estilo etiquetas <a> del menu hamburguesa*/
     }
 
     
-.header ul a:hover{
-    font-size: 16px;
-    text-decoration: line-through;
-    color: rgba(0,243,187,1);
- }
+    .header ul a:hover{
+        font-size: 16px;
+        text-decoration: line-through;
+        color: rgba(0,243,187,1);
+    }
 
-.logo {
-    width: 36px;
-    height: 36px;
-    margin-top: 22px;
-    margin-bottom: 22px;
-    margin-left: 100px;
-}
+    .logo {
+        width: 36px;
+        height: 36px;
+        margin-top: 22px;
+        margin-bottom: 22px;
+        margin-left: 16px;
+    }
 }

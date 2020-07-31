@@ -1,5 +1,11 @@
-.invitadas {
-    margin-top: 242px;
+.estelares {
+    margin-top: 54px;
+}
+
+.blancoynegro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .blanconegro1, .blanconegro2,.blanconegro3, .blanconegro4, .blanconegro5, .blanconegro6 {
@@ -27,9 +33,14 @@
     }
 
     .blanconegro1, .blanconegro2,.blanconegro3, .blanconegro4, .blanconegro5, .blanconegro6 {
-        width: 33%;
-        height: 364px;
-    }    
-
-
+        width: 50%;
+    height: 33.33%;
+    }   
 }
+
+@media (min-width: 1024px) {
+    .blanconegro1, .blanconegro2,.blanconegro3, .blanconegro4, .blanconegro5, .blanconegro6 {
+        width: 33%;
+        height: 50%;
+    }
+}    

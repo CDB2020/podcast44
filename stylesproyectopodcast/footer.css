@@ -2,8 +2,6 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /*width: 320px;
-    height: 70px;*/
     justify-content: space-around;
     align-items: center;
     align-content: center;

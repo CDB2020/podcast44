@@ -1,7 +1,9 @@
 .novedades {    
-    height: 341px;
+    padding-bottom: 67px;
     background-image: linear-gradient( rgba(0,0,255,1), rgba(0,0,163,1)); 
     clip-path: polygon(0 30px, 100% 0%, 100% 100%, 0% 100%);
+    display: flex;
+    flex-direction: column;
 }
 
 .h2novedades {
@@ -16,26 +18,28 @@
 }
 
 .escucha {  
-    font-family:'IBM Plex Mono', monospace; 
-    color:rgba(6,10,36,1);
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgba(6,10,36,1);
     text-decoration: none;
     font-weight: 500;
-    font-size: 16px;  
-    line-height: 22px;  
-    padding: 13px 43px;    
-    text-transform: uppercase;  
-    text-align: center;  
+    font-size: 16px;
+    line-height: 22px;
+    padding: 13px 43px;
+    text-transform: uppercase;
+    text-align: center;
     background-color: rgba(0,243,187,1);
-    margin-left: 16px;
-    margin-top: 36px;
-  }  
+    width: 202px;
+    margin: auto;
+}
+  
+
 
 @media (min-width: 768px) {
     .escucha {
         width: 345px;
-        height: 56px;
-        margin-left: 547px;
+        height: 26px;
         margin-top: 36px;
+        padding: 15px 0 15 0;
     }
 
     .escucha:hover {
@@ -54,3 +58,12 @@
         text-align: center;
     }
 }
+
+@media (min-width: 1024px) {
+    .escucha {
+        width: 345px;
+        height: 26px;
+        margin-top: 36px;
+        padding: 15px 0;
+    }
+}    

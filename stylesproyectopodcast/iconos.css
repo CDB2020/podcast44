@@ -1,3 +1,9 @@
+.iconos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }    
+
 h3 {
     font-family: 'IBM Plex Sans', sans-serif ;
     color:rgba(6,10,36,1) ;
@@ -6,6 +12,7 @@ h3 {
     height: 32px;
     margin-left: 16px;
     margin-top: 13px;
+    margin-bottom: 42px;
     text-align: center;
 }
 

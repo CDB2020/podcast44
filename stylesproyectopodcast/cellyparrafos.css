@@ -12,18 +12,32 @@
 }
 
 .ourposturings, .ourplanet {
-    box-shadow: 0 0px 20px -2px rgb(180, 173, 173);
-    border-radius: 7px 
+   padding-top: 8px;
+   width: 288px;
+   height: fit-content;
+   margin-bottom: 0px;
+   margin-top: 20px;
+   box-shadow: 0 0px 20px -2px rgb(180, 173, 173);
+   border-radius: 7px;
 }
+
 
 @media (min-width: 768px) {
     .cellyparrafos {
         display: flex;
         justify-content: center;
-    }    
+        flex-direction: row;
+    }
 
-    .celular {
+    .dedondevenimos{
+        width: 399px;
+        height: 62px;
+    }
+
+   .celular {
         display: flex;
+        flex-direction: column;
+        align-self: center;
     }
 
     .posturings {
@@ -32,9 +46,11 @@
 
     .cel {
         display: flex;
-        margin-left: 200px;
-        margin-right: 62px;
     }
-
-        
+}
+@media (min-width: 1024px) {
+    .ourposturings, .ourplanet {
+        width: 464px;
+        align-self: auto;
+    }
 }
